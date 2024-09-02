@@ -1,0 +1,37 @@
+namespace DocGen.OfficeChart.Parser.Biff_Records.MsoDrawing;
+
+internal enum MsoRecords
+{
+	msofbtDggContainer = 61440,
+	msofbtDgg = 61446,
+	msofbtCLSID = 61462,
+	msofbtOPT = 61451,
+	msofbtColorMRU = 61722,
+	msofbtSplitMenuColors = 61726,
+	msofbtBstoreContainer = 61441,
+	msofbtBSE = 61447,
+	msofbtDgContainer = 61442,
+	msofbtDg = 61448,
+	msofbtRegroupItems = 61720,
+	msofbtColorScheme = 61728,
+	msofbtSpgrContainer = 61443,
+	msofbtSpContainer = 61444,
+	msofbtSpgr = 61449,
+	msofbtSp = 61450,
+	msofbtTextbox = 61452,
+	msofbtClientTextbox = 61453,
+	msofbtAnchor = 61454,
+	msofbtChildAnchor = 61455,
+	msofbtClientAnchor = 61456,
+	msofbtClientData = 61457,
+	msofbtOleObject = 61727,
+	msofbtDeletedPspl = 61725,
+	msofbtSolverContainer = 61445,
+	msofbtConnectorRule = 61458,
+	msofbtAlignRule = 61459,
+	msofbtArcRule = 61460,
+	msofbtClientRule = 61461,
+	msofbtCalloutRule = 61463,
+	msofbtSelection = 61721,
+	msoUnknown = 65535
+}

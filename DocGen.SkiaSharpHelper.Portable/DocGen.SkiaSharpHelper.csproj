@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>DocGen.SkiaSharpHelper.Portable</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>DocGen.SkiaSharpHelper.Portable</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocGen.Compression.Portable">
+      <HintPath>..\DocGen.Compression.Portable\bin\Debug\netcoreapp8.0\DocGen.Compression.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="DocGen.OfficeChart.Portable">
+      <HintPath>..\DocGen.OfficeChart.Portable\bin\Debug\netcoreapp8.0\DocGen.OfficeChart.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="HarfBuzzSharp">
+      <HintPath>..\HarfBuzzSharp\bin\Debug\netcoreapp6.0\HarfBuzzSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp">
+      <HintPath>..\SkiaSharp\bin\Debug\netcoreapp6.0\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.HarfBuzz">
+      <HintPath>..\SkiaSharp.HarfBuzz\bin\Debug\netcoreapp6.0\SkiaSharp.HarfBuzz.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

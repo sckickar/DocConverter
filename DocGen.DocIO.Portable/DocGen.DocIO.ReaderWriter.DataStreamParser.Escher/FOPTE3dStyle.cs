@@ -1,0 +1,37 @@
+namespace DocGen.DocIO.ReaderWriter.DataStreamParser.Escher;
+
+public enum FOPTE3dStyle
+{
+	c3DYRotationAngle = 704,
+	c3DXRotationAngle = 705,
+	c3DRotationAxisX = 706,
+	c3DRotationAxisY = 707,
+	c3DRotationAxisZ = 708,
+	c3DRotationAngle = 709,
+	c3DRotationCenterX = 710,
+	c3DRotationCenterY = 711,
+	c3DRotationCenterZ = 712,
+	c3DRenderMode = 713,
+	c3DTolerance = 714,
+	c3DXViewpoint = 715,
+	c3DYViewpoint = 716,
+	c3DZViewpoint = 717,
+	c3DOriginX = 718,
+	c3DOriginY = 719,
+	c3DSkewAngle = 720,
+	c3DSkewAmount = 721,
+	c3DAmbientIntensity = 722,
+	c3DKeyX = 723,
+	c3DKeyY = 724,
+	c3DKeyZ = 725,
+	c3DKeyIntensity = 726,
+	c3DFillX = 727,
+	c3DFillY = 728,
+	c3DFillZ = 729,
+	c3DFillIntensity = 730,
+	fc3DConstrainRotation = 763,
+	fc3DRotationCenterAuto = 764,
+	fc3DParallel = 765,
+	fc3DKeyHarsh = 766,
+	fc3DFillHarsh = 767
+}

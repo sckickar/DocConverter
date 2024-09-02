@@ -1,0 +1,13 @@
+namespace DocGen.Pdf.Native;
+
+internal enum MAPPING_MODE
+{
+	MM_TEXT = 1,
+	MM_LOMETRIC,
+	MM_HIMETRIC,
+	MM_LOENGLISH,
+	MM_HIENGLISH,
+	MM_TWIPS,
+	MM_ISOTROPIC,
+	MM_ANISOTROPIC
+}

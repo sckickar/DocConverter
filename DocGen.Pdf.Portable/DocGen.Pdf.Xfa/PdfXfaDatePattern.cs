@@ -1,0 +1,26 @@
+namespace DocGen.Pdf.Xfa;
+
+public enum PdfXfaDatePattern
+{
+	Default,
+	Short,
+	Medium,
+	Long,
+	Full,
+	MDYY,
+	MMMD_YYYY,
+	MMMMD_YYYY,
+	EEEE_MMMMD_YYYY,
+	MDYYYY,
+	MMDDYY,
+	MMDDYYYY,
+	YYMMDD,
+	YYYYMMDD,
+	DDMMMYY,
+	EEEEMMMMDDYYYY,
+	MMMMDDYYYY,
+	EEEEDDMMMMYYYY,
+	DDMMMMYYYY,
+	MMMMYYYY,
+	DDMMYYYY
+}

@@ -1,0 +1,14 @@
+namespace DocGen.Pdf.Native;
+
+internal enum PS_PEN_STYLE
+{
+	PS_SOLID,
+	PS_DASH,
+	PS_DOT,
+	PS_DASHDOT,
+	PS_DASHDOTDOT,
+	PS_NULL,
+	PS_INSIDEFRAME,
+	PS_USERSTYLE,
+	PS_ALTERNATE
+}

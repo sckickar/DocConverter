@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>DocGen.DocIORenderer.Portable</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>DocGen.DocIORenderer.Portable</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BitMiracle.LibTiff.NET">
+      <HintPath>bin\Debug\netcoreapp8.0\BitMiracle.LibTiff.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="DocGen.Compression.Portable">
+      <HintPath>..\DocGen.SkiaSharpHelper.Portable\bin\Debug\netcoreapp8.0\DocGen.Compression.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="DocGen.DocIO.Portable">
+      <HintPath>..\DocGen.DocIO.Portable\bin\Debug\netcoreapp8.0\DocGen.DocIO.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="DocGen.OfficeChart.Portable">
+      <HintPath>..\DocGen.SkiaSharpHelper.Portable\bin\Debug\netcoreapp8.0\DocGen.OfficeChart.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="DocGen.Pdf.Imaging.Portable">
+      <HintPath>..\DocGen.Pdf.Imaging.Portable\bin\Debug\netcoreapp8.0\DocGen.Pdf.Imaging.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="DocGen.Pdf.Portable">
+      <HintPath>..\DocGen.Pdf.Portable\bin\Debug\net8.0\DocGen.Pdf.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="DocGen.SkiaSharpHelper.Portable">
+      <HintPath>..\DocGen.SkiaSharpHelper.Portable\bin\Debug\netcoreapp8.0\DocGen.SkiaSharpHelper.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="HarfBuzzSharp">
+      <HintPath>..\DocGen.SkiaSharpHelper.Portable\bin\Debug\netcoreapp8.0\HarfBuzzSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp">
+      <HintPath>..\DocGen.SkiaSharpHelper.Portable\bin\Debug\netcoreapp8.0\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.HarfBuzz">
+      <HintPath>..\DocGen.SkiaSharpHelper.Portable\bin\Debug\netcoreapp8.0\SkiaSharp.HarfBuzz.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

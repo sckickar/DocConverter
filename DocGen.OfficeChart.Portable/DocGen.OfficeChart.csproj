@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>DocGen.OfficeChart.Portable</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>DocGen.OfficeChart.Portable</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocGen.Compression.Portable">
+      <HintPath>..\DocGen.Compression.Portable\bin\Debug\netcoreapp8.0\DocGen.Compression.Portable.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

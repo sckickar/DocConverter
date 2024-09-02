@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>DocGen.Pdf.Portable</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="DocGen.Pdf.Portable.Resources.Adobe-Japan1-6.cidmap" />
+    <None Remove="DocGen.Pdf.Portable.Resources.Courier-Bold.fnt" />
+    <None Remove="DocGen.Pdf.Portable.Resources.Courier-BoldOblique.fnt" />
+    <None Remove="DocGen.Pdf.Portable.Resources.Courier-Oblique.fnt" />
+    <None Remove="DocGen.Pdf.Portable.Resources.Courier.fnt" />
+    <None Remove="DocGen.Pdf.Portable.Resources.Helvetica-Bold.fnt" />
+    <None Remove="DocGen.Pdf.Portable.Resources.Helvetica-BoldOblique.fnt" />
+    <None Remove="DocGen.Pdf.Portable.Resources.Helvetica-Oblique.fnt" />
+    <None Remove="DocGen.Pdf.Portable.Resources.Helvetica.fnt" />
+    <None Remove="DocGen.Pdf.Portable.Resources.Symbol.fnt" />
+    <None Remove="DocGen.Pdf.Portable.Resources.Times-Bold.fnt" />
+    <None Remove="DocGen.Pdf.Portable.Resources.Times-BoldItalic.fnt" />
+    <None Remove="DocGen.Pdf.Portable.Resources.Times-Italic.fnt" />
+    <None Remove="DocGen.Pdf.Portable.Resources.Times-Roman.fnt" />
+    <None Remove="DocGen.Pdf.Portable.Resources.ZapfDingbats.fnt" />
+    <None Remove="DocGen.Pdf.Portable.Resources.standard_encoding.cfg" />
+    <EmbeddedResource Include="DocGen.Pdf.Portable.Resources.Adobe-Japan1-6.cidmap" LogicalName="DocGen.Pdf.Portable.Resources.Adobe-Japan1-6.cidmap" />
+    <EmbeddedResource Include="DocGen.Pdf.Portable.Resources.Courier-Bold.fnt" LogicalName="DocGen.Pdf.Portable.Resources.Courier-Bold.fnt" />
+    <EmbeddedResource Include="DocGen.Pdf.Portable.Resources.Courier-BoldOblique.fnt" LogicalName="DocGen.Pdf.Portable.Resources.Courier-BoldOblique.fnt" />
+    <EmbeddedResource Include="DocGen.Pdf.Portable.Resources.Courier-Oblique.fnt" LogicalName="DocGen.Pdf.Portable.Resources.Courier-Oblique.fnt" />
+    <EmbeddedResource Include="DocGen.Pdf.Portable.Resources.Courier.fnt" LogicalName="DocGen.Pdf.Portable.Resources.Courier.fnt" />
+    <EmbeddedResource Include="DocGen.Pdf.Portable.Resources.Helvetica-Bold.fnt" LogicalName="DocGen.Pdf.Portable.Resources.Helvetica-Bold.fnt" />
+    <EmbeddedResource Include="DocGen.Pdf.Portable.Resources.Helvetica-BoldOblique.fnt" LogicalName="DocGen.Pdf.Portable.Resources.Helvetica-BoldOblique.fnt" />
+    <EmbeddedResource Include="DocGen.Pdf.Portable.Resources.Helvetica-Oblique.fnt" LogicalName="DocGen.Pdf.Portable.Resources.Helvetica-Oblique.fnt" />
+    <EmbeddedResource Include="DocGen.Pdf.Portable.Resources.Helvetica.fnt" LogicalName="DocGen.Pdf.Portable.Resources.Helvetica.fnt" />
+    <EmbeddedResource Include="DocGen.Pdf.Portable.Resources.Symbol.fnt" LogicalName="DocGen.Pdf.Portable.Resources.Symbol.fnt" />
+    <EmbeddedResource Include="DocGen.Pdf.Portable.Resources.Times-Bold.fnt" LogicalName="DocGen.Pdf.Portable.Resources.Times-Bold.fnt" />
+    <EmbeddedResource Include="DocGen.Pdf.Portable.Resources.Times-BoldItalic.fnt" LogicalName="DocGen.Pdf.Portable.Resources.Times-BoldItalic.fnt" />
+    <EmbeddedResource Include="DocGen.Pdf.Portable.Resources.Times-Italic.fnt" LogicalName="DocGen.Pdf.Portable.Resources.Times-Italic.fnt" />
+    <EmbeddedResource Include="DocGen.Pdf.Portable.Resources.Times-Roman.fnt" LogicalName="DocGen.Pdf.Portable.Resources.Times-Roman.fnt" />
+    <EmbeddedResource Include="DocGen.Pdf.Portable.Resources.ZapfDingbats.fnt" LogicalName="DocGen.Pdf.Portable.Resources.ZapfDingbats.fnt" />
+    <EmbeddedResource Include="DocGen.Pdf.Portable.Resources.standard_encoding.cfg" LogicalName="DocGen.Pdf.Portable.Resources.standard_encoding.cfg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DocGen.Compression.Portable">
+      <HintPath>..\DocGen.Compression.Portable\bin\Debug\netcoreapp8.0\DocGen.Compression.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="DocGen.OfficeChart.Portable">
+      <HintPath>..\DocGen.OfficeChart.Portable\bin\Debug\netcoreapp8.0\DocGen.OfficeChart.Portable.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

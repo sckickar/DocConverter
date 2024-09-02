@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="Grad_Moss" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>AwAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAADP690AnoYBAFDDAABuuJwAnoYBAKCGAQATaxUA
+noYBAA==</value></data><data name="Grad_Gold" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>BgAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAACs3OYAnoYBAOAuAACK1+YAnoYBADB1AABMrMcA
+noYBAMivAACK1+YAnoYBAMgsAQBMrMcAnoYBAKCGAQCs3OYAnoYBAA==</value></data><data name="Grad_Fire" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>BAAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8v8AnoYBAMivAAAAev8AnoYBAHARAQAAA/8A
+noYBAKCGAQAICE0AnoYBAA==</value></data><data name="Grad_Calm_Water" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>BgAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/zMwAnoYBAE9GAAD/zJkAnoYBAKCMAAD/ZpkA
+noYBAEjuAAD/mcwAnoYBAFFAAQD/zJkAnoYBAKCGAQD/zMwAnoYBAA==</value></data><data name="Grad_Parchment" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>AwAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAADR7/8AnoYBAOf9AADV6/AAnoYBAKCGAQCfw9EA
+noYBAA==</value></data><data name="Grad_Late_Sunset" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>BgAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnoYBACBOAABAAAAAnoYBAFDDAABAAEAA
+noYBAPgkAQBAAI8AnoYBAI9fAQAAc/IAnoYBAKCGAQAAv/8AnoYBAA==</value></data><data name="Grad_Daybreak" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>BAAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/nl4AnoYBAD+cAAD/woUAnoYBAHARAQDr1sQA
+noYBAKCGAQD66/8AnoYBAA==</value></data><data name="Grad_Horizon" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>CgAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAD169wAnoYBAEAfAADDp4MAnoYBAMgyAAC5j3YA
+noYBAAlSAADDp4MAnoYBACDLAAD///8AnoYBAMDaAABjZZwAnoYBAJDiAAAtMIAAnoYBAFkVAQBO
+UsAAnoYBADBvAQDU2usAnoYBAKCGAQAcJlUAnoYBAA==</value></data><data name="Grad_Peacock" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>BwAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/mTMAnoYBAIA+AADMzAAAnoYBAJi3AAD/mZkA
+noYBAGHqAACSZy4AnoYBAFkVAQDMMzMAnoYBAGg8AQD/cBEAnoYBAKCGAQCZZgAAnoYBAA==</value></data><data name="Grad_RainbowII" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>BQAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAACZM/8AnoYBAKhhAAAzZv8AnoYBAFDDAAAA//8A
+noYBAPgkAQCPpwEAnoYBAKCGAQD/ZjMAnoYBAA==</value></data><data name="Grad_ChromeII" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>CAAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAADLy8sAnoYBAMgyAABfX18AnoYBAAlSAABfX18A
+noYBABj2AAD///8AnoYBALgFAQCysrIAnoYBAIgNAQApKSkAnoYBAFFAAQB3d3cAnoYBAKCGAQDq
+6uoAnoYBAA==</value></data><data name="Grad_Nightfall" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>BQAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnoYBAD+cAACMEgoAnoYBAHARAQDHHBgA
+noYBAMBXAQDUBXAAnoYBAKCGAQCRPYwAnoYBAA==</value></data><data name="Grad_Sapphire" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>CAAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAACCAAAAnoYBAMgyAAD/RwAAnoYBAGBtAACCAAAA
+noYBAPenAAD/RwAAnoYBAJDiAACCAAAAnoYBAEAZAQD/RwAAnoYBANhTAQCCAAAAnoYBAKCGAQD/
+RwAAnoYBAA==</value></data><data name="Grad_Early_Sunset" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>BQAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAACCAAAAnoYBADB1AACPAGYAnoYBAOf9AABmALoA
+noYBAI9fAQAAAP8AnoYBAKCGAQAAgv8AnoYBAA==</value></data><data name="Grad_Mahogany" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>BAAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAACcsdYAnoYBADB1AABsntQAnoYBAHARAQAoVaYA
+noYBAKCGAQASMGYAnoYBAA==</value></data><data name="Grad_Fog" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>BAAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAADEiIQAnoYBAAjPAAD/3tQAnoYBADhEAQD/3tQA
+noYBAKCGAQCUq5YAnoYBAA==</value></data><data name="Grad_Chrome" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>CQAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8AnoYBAIA+AAAfHx8AnoYBAE9GAAD///8A
+noYBABCkAABjY2MAnoYBAAjPAADPz88AnoYBANABAQDPz88AnoYBAN8oAQAfHx8AnoYBAJc0AQD/
+//8AnoYBAKCGAQB/f38AnoYBAA==</value></data><data name="Grad_Desert" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>CAAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAADLn/wAnoYBAMgyAABJsPgAnoYBAAlSAABJsPgA
+noYBABj2AADy5/4AnoYBALgFAQCgUvkAnoYBAIgNAQBJCMUAnoYBAFFAAQCFPrQAnoYBAKCGAQBJ
+sPgAnoYBAA==</value></data><data name="Grad_Ocean" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>BAAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAACo1AMAnoYBAKhhAADg1iEAnoYBAPgkAQDmhwAA
+noYBAKCGAQC/XAAAnoYBAA==</value></data><data name="Grad_Brass" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>CAAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVoIAnoYBAMgyAAAAqP8AnoYBAGBtAAAAVoIA
+noYBAPenAAAAqP8AnoYBAJDiAAAAVoIAnoYBAEAZAQAAqP8AnoYBANhTAQAAVoIAnoYBAKCGAQAA
+qP8AnoYBAA==</value></data><data name="Grad_GoldII" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>CAAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAACu5PsAnoYBAMgyAAAqkr0AnoYBAAlSAAAqkr0A
+noYBABj2AACu5PsAnoYBALgFAQAqkr0AnoYBAIgNAQAXXoMAnoYBAFFAAQBJiaIAnoYBAKCGAQC3
+4/oAnoYBAA==</value></data><data name="Grad_Wheat" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>BgAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAADH6vsAnoYBAE9GAADy5/4AnoYBAKCMAAB9x/oA
+noYBAEjuAAB9qfsAnoYBAFFAAQCc1PsAnoYBAKCGAQDy5/4AnoYBAA==</value></data><data name="Grad_Rainbow" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>BwAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAACrA6YAnoYBAAlSAAD7GQgAnoYBALmIAABIjRoA
+noYBACDLAAAA//8AnoYBACgdAQAXP+4AnoYBAMBXAQBmF+gAnoYBAKCGAQCrA6YAnoYBAA==</value></data><data name="Grad_Silver" type="System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>BgAAAMBlUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8AnoYBAFkbAADm5uYAnoYBAAF9AACWhH0A
+noYBAJi3AADm5uYAnoYBAAlMAQCWhH0AnoYBAKCGAQDm5uYAnoYBAA==</value></data></root>

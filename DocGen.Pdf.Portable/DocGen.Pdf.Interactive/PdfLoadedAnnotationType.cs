@@ -1,0 +1,38 @@
+namespace DocGen.Pdf.Interactive;
+
+public enum PdfLoadedAnnotationType
+{
+	Highlight,
+	Underline,
+	StrikeOut,
+	Squiggly,
+	RedactionAnnotation,
+	TextAnnotation,
+	LinkAnnotation,
+	DocumentLinkAnnotation,
+	FileLinkAnnotation,
+	FreeTextAnnotation,
+	LineAnnotation,
+	CircleAnnotation,
+	EllipseAnnotation,
+	SquareAnnotation,
+	RectangleAnnotation,
+	PolygonAnnotation,
+	PolyLineAnnotation,
+	TextMarkupAnnotation,
+	CaretAnnotation,
+	RubberStampAnnotation,
+	PopupAnnotation,
+	FileAttachmentAnnotation,
+	SoundAnnotation,
+	MovieAnnotation,
+	ScreenAnnotation,
+	WidgetAnnotation,
+	PrinterMarkAnnotation,
+	TrapNetworkAnnotation,
+	WatermarkAnnotation,
+	TextWebLinkAnnotation,
+	InkAnnotation,
+	RichMediaAnnotation,
+	Null
+}

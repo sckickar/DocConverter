@@ -1,0 +1,15 @@
+namespace DocGen.Pdf.Native;
+
+internal enum GDI_PITCH_AND_FAMILY
+{
+	TMPF_FIXED_PITCH = 1,
+	TMPF_VECTOR = 2,
+	TMPF_TRUETYPE = 4,
+	TMPF_DEVICE = 8,
+	FF_DONTCARE = 0,
+	FF_ROMAN = 16,
+	FF_SWISS = 32,
+	FF_MODERN = 48,
+	FF_SCRIPT = 64,
+	FF_DECORATIVE = 80
+}

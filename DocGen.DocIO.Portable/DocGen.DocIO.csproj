@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>DocGen.DocIO.Portable</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>DocGen.DocIO.Portable</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="DocGen.DocIO.Portable.Resources.ExcelTemplate.xlsx" />
+    <None Remove="DocGen.DocIO.Portable.Resources.builtin-styles.xml" />
+    <None Remove="DocGen.DocIO.Portable.Resources.PatternFillResources.xml" />
+    <None Remove="DocGen.DocIO.Portable.Resources.ShapeTypes.txt" />
+    <None Remove="DocGen.DocIO.Portable.Resources.ImageNotFound.jpg" />
+    <None Remove="DocGen.DocIO.Portable.Resources.xhtml1-strict.xsd" />
+    <None Remove="DocGen.DocIO.Portable.Resources.xhtml1-transitional.xsd" />
+    <EmbeddedResource Include="DocGen.DocIO.Portable.Resources.ExcelTemplate.xlsx" LogicalName="DocGen.DocIO.Portable.Resources.ExcelTemplate.xlsx" />
+    <EmbeddedResource Include="DocGen.DocIO.Portable.Resources.builtin-styles.xml" LogicalName="DocGen.DocIO.Portable.Resources.builtin-styles.xml" />
+    <EmbeddedResource Include="DocGen.DocIO.Portable.Resources.PatternFillResources.xml" LogicalName="DocGen.DocIO.Portable.Resources.PatternFillResources.xml" />
+    <EmbeddedResource Include="DocGen.DocIO.Portable.Resources.ShapeTypes.txt" LogicalName="DocGen.DocIO.Portable.Resources.ShapeTypes.txt" />
+    <EmbeddedResource Include="DocGen.DocIO.Portable.Resources.ImageNotFound.jpg" LogicalName="DocGen.DocIO.Portable.Resources.ImageNotFound.jpg" />
+    <EmbeddedResource Include="DocGen.DocIO.Portable.Resources.xhtml1-strict.xsd" LogicalName="DocGen.DocIO.Portable.Resources.xhtml1-strict.xsd" />
+    <EmbeddedResource Include="DocGen.DocIO.Portable.Resources.xhtml1-transitional.xsd" LogicalName="DocGen.DocIO.Portable.Resources.xhtml1-transitional.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="BitMiracle.LibTiff.NET">
+      <HintPath>..\DocGen.DocIORenderer.Portable\bin\Debug\netcoreapp8.0\BitMiracle.LibTiff.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="DocGen.Compression.Portable">
+      <HintPath>..\DocGen.SkiaSharpHelper.Portable\bin\Debug\netcoreapp8.0\DocGen.Compression.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="DocGen.OfficeChart.Portable">
+      <HintPath>..\DocGen.OfficeChart.Portable\bin\Debug\netcoreapp8.0\DocGen.OfficeChart.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="DocGen.Pdf.Imaging.Portable">
+      <HintPath>..\DocGen.Pdf.Imaging.Portable\bin\Debug\netcoreapp8.0\DocGen.Pdf.Imaging.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="DocGen.Pdf.Portable">
+      <HintPath>..\DocGen.Pdf.Portable\bin\Debug\net8.0\DocGen.Pdf.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="DocGen.SkiaSharpHelper.Portable">
+      <HintPath>..\DocGen.SkiaSharpHelper.Portable\bin\Debug\netcoreapp8.0\DocGen.SkiaSharpHelper.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="HarfBuzzSharp">
+      <HintPath>..\HarfBuzzSharp\bin\Debug\netcoreapp6.0\HarfBuzzSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp">
+      <HintPath>..\DocGen.SkiaSharpHelper.Portable\bin\Debug\netcoreapp8.0\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.HarfBuzz">
+      <HintPath>..\DocGen.DocIORenderer.Portable\bin\Debug\netcoreapp8.0\SkiaSharp.HarfBuzz.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

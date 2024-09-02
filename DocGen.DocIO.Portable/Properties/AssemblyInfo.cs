@@ -1,0 +1,25 @@
+using System;
+using System.Diagnostics;
+using System.Reflection;
+using System.Resources;
+using System.Runtime.CompilerServices;
+using System.Runtime.Versioning;
+
+[assembly: AssemblyCopyright("Copyright © 2001-2024 DocGen Inc.")]
+[assembly: AssemblyTrademark("")]
+[assembly: NeutralResourcesLanguage("en")]
+[assembly: InternalsVisibleTo("DocIO.Tests_Portable, PublicKey=00240000048000009400000006020000002400005253413100040000010001002382fcb1069523ce72d849497a557a445c151eaf4007aa79adef551a8204ca7f728e5378607d85695b16f129ec35bf4af15dcf6d3581deb8bb0debb239c33e7f1271a37c7f60f1044ae417730f5082abee5f9ec568a8a4cef04074394755706376e982dc6f9d15430faaad385ae8f00a77ef1c97517f1a1517004ce78028b9ce")]
+[assembly: InternalsVisibleTo("DocGen.EJ2.DocumentEditor, PublicKey=00240000048000009400000006020000002400005253413100040000010001002382fcb1069523ce72d849497a557a445c151eaf4007aa79adef551a8204ca7f728e5378607d85695b16f129ec35bf4af15dcf6d3581deb8bb0debb239c33e7f1271a37c7f60f1044ae417730f5082abee5f9ec568a8a4cef04074394755706376e982dc6f9d15430faaad385ae8f00a77ef1c97517f1a1517004ce78028b9ce")]
+[assembly: InternalsVisibleTo("DocGen.WordProcessor.AspNet.Core, PublicKey=00240000048000009400000006020000002400005253413100040000010001002382fcb1069523ce72d849497a557a445c151eaf4007aa79adef551a8204ca7f728e5378607d85695b16f129ec35bf4af15dcf6d3581deb8bb0debb239c33e7f1271a37c7f60f1044ae417730f5082abee5f9ec568a8a4cef04074394755706376e982dc6f9d15430faaad385ae8f00a77ef1c97517f1a1517004ce78028b9ce")]
+[assembly: InternalsVisibleTo("DocGen.DocIORenderer.Portable")]
+[assembly: InternalsVisibleTo("DocGen.SfRichTextBoxAdv.WPF, PublicKey=00240000048000009400000006020000002400005253413100040000010001002382fcb1069523ce72d849497a557a445c151eaf4007aa79adef551a8204ca7f728e5378607d85695b16f129ec35bf4af15dcf6d3581deb8bb0debb239c33e7f1271a37c7f60f1044ae417730f5082abee5f9ec568a8a4cef04074394755706376e982dc6f9d15430faaad385ae8f00a77ef1c97517f1a1517004ce78028b9ce")]
+[assembly: AssemblyDelaySign(false)]
+[assembly: AssemblyKeyName("")]
+[assembly: CLSCompliant(true)]
+[assembly: AssemblyCompany("DocGen Inc.")]
+[assembly: AssemblyConfiguration("Release-Xml")]
+[assembly: AssemblyFileVersion("26.2.9")]
+[assembly: AssemblyInformationalVersion("26.2.9")]
+[assembly: AssemblyProduct("DocGen.DocIO.Portable.Portable (LR)")]
+[assembly: AssemblyTitle("DocGen.DocIO.Portable")]
+[assembly: AssemblyVersion("26.2.9.0")]

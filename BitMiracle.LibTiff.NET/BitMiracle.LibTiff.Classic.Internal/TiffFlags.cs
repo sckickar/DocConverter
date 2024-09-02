@@ -1,0 +1,27 @@
+using System;
+
+namespace BitMiracle.LibTiff.Classic.Internal;
+
+[Flags]
+internal enum TiffFlags
+{
+	MSB2LSB = 1,
+	LSB2MSB = 2,
+	FILLORDER = 3,
+	DIRTYDIRECT = 8,
+	BUFFERSETUP = 0x10,
+	CODERSETUP = 0x20,
+	BEENWRITING = 0x40,
+	SWAB = 0x80,
+	NOBITREV = 0x100,
+	MYBUFFER = 0x200,
+	ISTILED = 0x400,
+	POSTENCODE = 0x1000,
+	INSUBIFD = 0x2000,
+	UPSAMPLED = 0x4000,
+	STRIPCHOP = 0x8000,
+	HEADERONLY = 0x10000,
+	NOREADRAW = 0x20000,
+	ISBIGTIFF = 0x100000,
+	NOBIGTIFF = 0x200000
+}

@@ -1,0 +1,36 @@
+namespace DocGen.OfficeChart.Parser.Biff_Records.ObjRecords;
+
+internal enum TObjType
+{
+	otGroup,
+	otLine,
+	otRectangle,
+	otOval,
+	otArc,
+	otChart,
+	otText,
+	otButton,
+	otPicture,
+	otPolygon,
+	otReserved0,
+	otCheckBox,
+	otOptionBtn,
+	otEditBox,
+	otLabel,
+	otDialogBox,
+	otSpinner,
+	otScrollBar,
+	otListBox,
+	otGroupBox,
+	otComboBox,
+	otReserved1,
+	otReserved2,
+	otReserved3,
+	otReserved4,
+	otComment,
+	otReserved5,
+	otReserved6,
+	otReserved7,
+	otReserved8,
+	otMSODrawing
+}

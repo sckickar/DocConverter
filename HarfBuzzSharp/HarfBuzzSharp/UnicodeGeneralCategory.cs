@@ -1,0 +1,35 @@
+namespace HarfBuzzSharp;
+
+public enum UnicodeGeneralCategory
+{
+	Control,
+	Format,
+	Unassigned,
+	PrivateUse,
+	Surrogate,
+	LowercaseLetter,
+	ModifierLetter,
+	OtherLetter,
+	TitlecaseLetter,
+	UppercaseLetter,
+	SpacingMark,
+	EnclosingMark,
+	NonSpacingMark,
+	DecimalNumber,
+	LetterNumber,
+	OtherNumber,
+	ConnectPunctuation,
+	DashPunctuation,
+	ClosePunctuation,
+	FinalPunctuation,
+	InitialPunctuation,
+	OtherPunctuation,
+	OpenPunctuation,
+	CurrencySymbol,
+	ModifierSymbol,
+	MathSymbol,
+	OtherSymbol,
+	LineSeparator,
+	ParagraphSeparator,
+	SpaceSeparator
+}

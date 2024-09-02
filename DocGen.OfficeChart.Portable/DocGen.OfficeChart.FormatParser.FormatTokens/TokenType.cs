@@ -1,0 +1,35 @@
+namespace DocGen.OfficeChart.FormatParser.FormatTokens;
+
+internal enum TokenType
+{
+	Unknown,
+	Section,
+	Hour,
+	Hour24,
+	Minute,
+	MinuteTotal,
+	Second,
+	SecondTotal,
+	Year,
+	Month,
+	Day,
+	String,
+	ReservedPlace,
+	Character,
+	AmPm,
+	Color,
+	Condition,
+	Text,
+	SignificantDigit,
+	InsignificantDigit,
+	PlaceReservedDigit,
+	Percent,
+	Scientific,
+	General,
+	ThousandsSeparator,
+	DecimalPoint,
+	Asterix,
+	Fraction,
+	MilliSecond,
+	Culture
+}

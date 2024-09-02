@@ -1,0 +1,11 @@
+namespace DocGen.Pdf.Native;
+
+internal enum BS_BRUSH_HATCH_STYLE
+{
+	HS_HORIZONTAL,
+	HS_VERTICAL,
+	HS_FDIAGONAL,
+	HS_BDIAGONAL,
+	HS_CROSS,
+	HS_DIAGCROSS
+}

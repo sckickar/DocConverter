@@ -1,0 +1,37 @@
+namespace DocGen.OfficeChart;
+
+internal enum ChartStyleElements
+{
+	axisTitle,
+	categoryAxis,
+	chartArea,
+	dataLabel,
+	dataLabelCallout,
+	dataPoint,
+	dataPoint3D,
+	dataPointLine,
+	dataPointMarker,
+	dataPointMarkerLayout,
+	dataPointWireframe,
+	dataTable,
+	downBar,
+	dropLine,
+	errorBar,
+	floor,
+	gridlineMajor,
+	gridlineMinor,
+	hiLoLine,
+	leaderLine,
+	legend,
+	plotArea,
+	plotArea3D,
+	seriesAxis,
+	seriesLine,
+	title,
+	trendline,
+	trendlineLabel,
+	upBar,
+	valueAxis,
+	wall,
+	extLst
+}
